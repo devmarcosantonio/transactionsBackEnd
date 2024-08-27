@@ -1,0 +1,14 @@
+# Dependencias
+node_modules
+
+# Banco de dados
+db/app.db
+db/test.db
+#posso trocar as duas linhas acima por: db/*.db
+
+# Variáveis de ambiente
+.env
+.env.test
+
+# Build
+build

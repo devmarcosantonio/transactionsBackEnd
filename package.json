@@ -1,0 +1,35 @@
+{
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/node": "^22.5.0",
+    "eslint": "^8.57.0",
+    "supertest": "^7.0.0",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.2.4",
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^9.4.0",
+    "@types/supertest": "^6.0.2",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7",
+    "zod": "^3.23.8"
+  },
+  "name": "apirest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "knex": "ts-node -r tsconfig-paths/register ./node_modules/knex/bin/cli.js",
+    "test": "npx vitest",
+    "build": "tsup src --out-dir build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
